@@ -8,8 +8,8 @@ const Navbar = () => {
   const menuItems = [
     { label: 'Home', ariaLabel: 'Go to home page', onClick: () => nav('/') },
     { label: 'Order', ariaLabel: 'Learn about us', onClick: () => nav('/order-item') },
-    { label: 'Services', ariaLabel: 'View our services', onClick: () => nav('/services') },
-    { label: 'Contact', ariaLabel: 'Get in touch', onClick: () => nav('/contact') }
+    { label: 'Services', ariaLabel: 'View our services'},
+    { label: 'Contact', ariaLabel: 'Get in touch'}
   ];
 
   const socialItems = [
@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-[18vh] border-b border-[rgba(222,184,135,0.3)] max-sm:h-[11vh]">
+    <div className="h-[18vh] border-b border-[rgba(222,184,135,0.3)] max-sm:h-[14vh]">
       <StaggeredMenu
         position="right"
         items={menuItems}
